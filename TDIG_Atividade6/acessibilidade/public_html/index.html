@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página inicial</title>
+    <link rel="stylesheet" type="text/css" href="newcss.css">
+	<link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body style="padding: 20px">
+<h1 class="title">Início</h1>
+<div class="tabContainer">
+    <div class="buttonContainer">
+        <p><a href="#" tabindex="1" onclick="showPanel(0,'#f44336')"><button>Guia 1</button></a></p>
+        <p><a href="#" tabindex="2" onclick="showPanel(1,'#4caf50')"><button>Guia 2</button></a></p>
+        <p><a href="#" tabindex="3" onclick="showPanel(2,'#2196f3')"><button>Guia 3</button></a></p>
+        <p><a href="#" tabindex="4" onclick="showPanel(3,'#ff5722')"><button>Guia 4</button></a></p>
+    </div>
+    <div class="tabPanel" tabindex="1">Conteúdo guia 1</div>
+    <div class="tabPanel" tabindex="2">Conteúdo guia 2</div>
+    <div class="tabPanel" tabindex="3">Conteúdo guia 3</div>
+    <div class="tabPanel" tabindex="4">Conteúdo guia 4</div>
+</div>
+
+<script src="myScript.js"></script>
+</body>
+</html>
