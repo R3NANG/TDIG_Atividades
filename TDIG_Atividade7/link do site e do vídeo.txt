@@ -1,0 +1,3 @@
+http://www.nvda-project.org - Site
+https://drive.google.com/open?id=1MvIIMonMGCXTR0ItSoP_6vuvbNaF_YmM -
+Vídeo upado no google drive pois o github não aceita arquivos maiores que 100mb.
