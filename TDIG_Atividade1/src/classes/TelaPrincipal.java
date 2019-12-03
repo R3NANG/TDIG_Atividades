@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package view;
+package classes;
 
 /**
  *
@@ -70,11 +70,21 @@ public class TelaPrincipal extends javax.swing.JFrame {
                 botao3MouseEntered(evt);
             }
         });
+        botao3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botao3ActionPerformed(evt);
+            }
+        });
 
         botao4.setText("Botão 4");
         botao4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 botao4MouseEntered(evt);
+            }
+        });
+        botao4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botao4ActionPerformed(evt);
             }
         });
 
@@ -153,10 +163,12 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     private void botao1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao1ActionPerformed
         // TODO add your handling code here:
+        botao1.setText(texto1.getText());
     }//GEN-LAST:event_botao1ActionPerformed
 
     private void botao2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao2ActionPerformed
         // TODO add your handling code here:
+        botao2.setText(texto2.getText());
     }//GEN-LAST:event_botao2ActionPerformed
 
     private void texto1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_texto1ActionPerformed
@@ -190,6 +202,16 @@ public class TelaPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
         botao4.setToolTipText("Quarto Botão!");
     }//GEN-LAST:event_botao4MouseEntered
+
+    private void botao3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao3ActionPerformed
+        // TODO add your handling code here:
+        botao3.setText(texto3.getText());
+    }//GEN-LAST:event_botao3ActionPerformed
+
+    private void botao4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botao4ActionPerformed
+        // TODO add your handling code here:
+        botao4.setText(texto4.getText());
+    }//GEN-LAST:event_botao4ActionPerformed
 
     /**
      * @param args the command line arguments
